@@ -1,0 +1,26 @@
+.horizontal {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element {
+    background-color: bisque;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 80px;
+    border: 1px;
+    border-color: gray;
+    flex: 1;
+    text-align: center;
+    padding-top: 2%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: orange;
+}
